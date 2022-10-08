@@ -8,15 +8,21 @@ import ReactDOM from 'react-dom';
 // Include mock API.
 import './mock';
 
+
 // Include styles.
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/index.css';
+
 
 // Include application component.
 import App from './components/App';
 
+// Importing the Bootstrap CSS
+import { BrowserRouter as Router} from "react-router-dom";
+
 ReactDOM.render(
-  <React.StrictMode>
+  <Router>
     <App />
-  </React.StrictMode>,
+  </Router>,
   document.getElementById('root')
 );

@@ -1,5 +1,10 @@
+import Routeur from './Routeur';
+/**
+ * to create a cleaner components we use the react router hooks
+ */
 function App() {
-  return <div>{/* Complete the exercise here. */}</div>;
+  return(
+    <Routeur />
+    );
 }
-
 export default App;

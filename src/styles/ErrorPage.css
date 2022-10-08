@@ -1,0 +1,9 @@
+.Error
+{
+    box-sizing: border-box; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 30px 30px 30px 30px;
+}

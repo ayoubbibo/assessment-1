@@ -1,0 +1,43 @@
+header 
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-items:center;
+  background-color: #16161d;
+  border-bottom: 3px ridge #FFFFFF;  
+  box-sizing: border-box;
+  padding: 10px 5px 10px 5px;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 96%;
+}
+  
+.banner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  border: 2px solid white;
+  border-radius: 9px;
+  color: #252b37;
+  animation: textColor 5s ease infinite;
+  padding: 10px 10px 10px 10px;
+}
+
+@keyframes textColor {
+  0% {
+    color: #7e0fff;
+    border: 2px solid #0fffc1;
+  }
+  50% {
+    color: #0fffc1;
+    
+    border: 2px solid #7e0fff;
+  }
+  100% {
+    color: #7e0fff;
+    
+    border: 2px solid #0fffc1;
+  }
+}
